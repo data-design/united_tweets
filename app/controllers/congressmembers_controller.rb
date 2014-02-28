@@ -12,6 +12,11 @@ class CongressmembersController < ApplicationController
   def show
   end
 
+  def party
+    @congressmembers = Congressmember.where(:party => params[:name])
+    render 'index'
+  end
+
   # GET /congressmembers/new
   def new
     @congressmember = Congressmember.new
