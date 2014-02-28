@@ -1,24 +1,14 @@
-<p id="notice"><%= notice %></p>
+<h1><%= @congressmember.first_name %> <%= @congressmember.last_name %></h1>
 
 <p>
-  <strong>First name:</strong>
-  <%= @congressmember.first_name %>
+  <strong><%= @congressmember.party %></strong> 
+  from 
+  <strong><%= @congressmember.state %></strong>
 </p>
 
-<p>
-  <strong>Last name:</strong>
-  <%= @congressmember.last_name %>
-</p>
+<%= image_tag @congressmember.image_url %>
 
-<p>
-  <strong>Party:</strong>
-  <%= @congressmember.party %>
-</p>
-
-<p>
-  <strong>State:</strong>
-  <%= @congressmember.state %>
-</p>
-
+<div>
 <%= link_to 'Edit', edit_congressmember_path(@congressmember) %> |
 <%= link_to 'Back', congressmembers_path %>
+</div>
