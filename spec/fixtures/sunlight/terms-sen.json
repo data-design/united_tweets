@@ -1,0 +1,49 @@
+[
+  {
+    "start": "1985-01-03",
+    "end": "1990-10-28",
+    "state": "KY",
+    "class": 2,
+    "party": "R",
+    "title": "Sen",
+    "chamber": "senate"
+  },
+  {
+    "start": "1991-01-03",
+    "end": "1996-10-04",
+    "state": "KY",
+    "class": 2,
+    "party": "R",
+    "title": "Sen",
+    "chamber": "senate"
+  },
+  {
+    "start": "1997-01-07",
+    "end": "2002-11-22",
+    "state": "KY",
+    "class": 2,
+    "party": "R",
+    "title": "Sen",
+    "chamber": "senate"
+  },
+  {
+    "start": "2003-01-07",
+    "end": "2009-01-03",
+    "state": "KY",
+    "class": 2,
+    "party": "R",
+    "title": "Sen",
+    "chamber": "senate"
+  },
+  {
+    "start": "2009-01-06",
+    "end": "2015-01-03",
+    "state": "KY",
+    "class": 2,
+    "party": "R",
+    "state_rank": "senior",
+    "rss_url": "http://www.mcconnell.senate.gov/public/?a=rss.feed",
+    "title": "Sen",
+    "chamber": "senate"
+  }
+]

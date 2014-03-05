@@ -3,6 +3,33 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+
+# new gems
+gem 'bootstrap-sass', '~> 3.1.1'
+gem "friendly_id"
+gem 'hashie'
+gem 'meta-tags', :require => 'meta_tags'
+gem 'pry-rails'
+gem 'slim-rails'
+
+group :test, :development do
+  gem 'rspec-rails'
+  gem "spring"
+  gem "spring-commands-rspec"
+end
+
+
+group :test do
+  gem 'capybara'
+  gem 'database_cleaner', '=1.0.1'
+  gem 'factory_girl_rails'
+  gem 'timecop'
+  gem 'vcr'
+  gem 'webmock'
+end
+
+### special gems
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
